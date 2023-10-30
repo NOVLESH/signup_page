@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".SignUpActivity"
+    android:background="@drawable/img_2"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="184dp"
+        android:layout_height="155dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:paddingBottom="16dp"
+        android:src="@drawable/img_3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/atomic_age"
+        android:gravity="center"
+        android:paddingBottom="16dp"
+        android:text="Fill in your details below"
+        android:textColor="#2962FF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/back"
+        android:fontFamily="@font/allerta_stencil"
+        android:textColorHint="#2962FF"
+        android:gravity="center"
+        android:hint="Name"
+         />
+
+    <EditText
+        android:id="@+id/editTextRegNumber"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="number"
+        android:fontFamily="@font/allerta_stencil"
+        android:textColorHint="#2962FF"
+        android:hint="Registration Number"
+        android:background="@drawable/back"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:fontFamily="@font/allerta_stencil"
+        android:textColorHint="#2962FF"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/back"
+        android:gravity="center"
+        android:hint="Email Address" />
+
+    <EditText
+        android:id="@+id/editTextContact"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:fontFamily="@font/allerta_stencil"
+        android:textColorHint="#2962FF"
+        android:background="@drawable/back"
+        android:gravity="center"
+        android:inputType="phone"
+        android:hint="Contact" />
+
+    <EditText
+        android:id="@+id/editTextSubject"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:fontFamily="@font/allerta_stencil"
+        android:textColorHint="#2962FF"
+        android:background="@drawable/back"
+        android:gravity="center"
+        android:hint="Subject" />
+
+    <Button
+        android:id="@+id/buttonSignUp"
+        android:fontFamily="@font/allerta_stencil"
+        android:textColorHint="#2962FF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up" />
+
+</LinearLayout>
